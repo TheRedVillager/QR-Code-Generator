@@ -9,7 +9,6 @@ async function generate() {
     document.getElementById("qr").style.display = "block";
     document.getElementById("loadcover").style.display = "none";
     document.getElementById("qr").classList.add('animate__animated', 'animate__jackInTheBox');
-    document.getElementById("download").style.display = "block";
 }
 
 async function loadImage(url, elem) {
